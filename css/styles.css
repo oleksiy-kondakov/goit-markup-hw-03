@@ -60,6 +60,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts-list {
   display: flex;
@@ -84,6 +86,8 @@ body {
   font-size: 14px;
   color: #757575;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts-list-item-link:hover {
   color: var(--hover-text-color);
