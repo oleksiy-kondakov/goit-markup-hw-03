@@ -16,7 +16,7 @@ ul {
 body {
   font-family: Roboto, sans-serif;
 }
-h1 {
+h1, h2, h3 {
   margin: 0;
 }
 .header {
@@ -196,6 +196,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 .what-we-do-header {
@@ -208,6 +209,8 @@ img {
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
+  margin-top: 27px;
+  margin-bottom: 27px;
   /*добавил тень для читабельности*/
 }
 .what-we-do-list {
@@ -217,6 +220,20 @@ img {
   margin-right: 30px;
 }
 
+/* НАША КОМАНДА */
+.section-dark{
+  background-color: #F5F4FA;;
+}
+.our-team-list{
+  display: flex;
+}
+.our-team-list-item:not(:last-child){
+  margin-right: 30px;
+}
+.our-team-list-img{
+  margin-bottom: 30px;
+}
+}
 .our-team-header {
   font-style: normal;
   font-weight: 500;
@@ -225,7 +242,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
+.our-team-list-img h3{
+  margin-bottom: 10px;
+}
 .our-team-text {
   font-style: normal;
   font-weight: normal;
@@ -233,6 +252,8 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .clients-list-item :hover {
   color: var(--hover-text-color);
