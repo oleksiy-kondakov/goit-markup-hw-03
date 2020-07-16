@@ -28,7 +28,7 @@ ul {
 body {
   font-family: Roboto, sans-serif;
 }
-
+/* ХЕДЕР */
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -236,6 +236,7 @@ img {
 }
 .our-team-list{
   display: flex;
+  justify-content: center;
 }
 .our-team-list-item:not(:last-child){
   margin-right: 30px;
@@ -324,6 +325,7 @@ display: flex;
   margin-bottom: 20px;
  }
 .adress-text {
+  display: block;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -334,15 +336,33 @@ display: flex;
   margin-bottom: 9px;
 
 }
+.adress-container{
+  margin-right: 69px;
+}
+
+.footer-contacts-list-item:not(:last-child){
+  margin-bottom: 9px;
+}
+.contacts-list-footer-item-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.14;
+  font-size: 14px;
+  color:rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.02em;
+  
+}
 
 .social-links-footer {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
 
 }
 .social-links-footer-item:hover {
