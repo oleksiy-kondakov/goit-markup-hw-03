@@ -3,6 +3,17 @@
   --primary-text-color: #212121;
   --second-text-color: #757575;
 }
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
 a {
   text-decoration: none;
   display: block;
@@ -12,13 +23,12 @@ a :visited {
 }
 ul {
   list-style-type: none;
+  margin: 0;
 }
 body {
   font-family: Roboto, sans-serif;
 }
-h1, h2, h3 {
-  margin: 0;
-}
+
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -241,19 +251,52 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-top: 0px;
 }
-.our-team-list-img h3{
+.our-team-header{
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .our-team-text {
   font-style: normal;
   font-weight: normal;
+  text-align: center;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
+}
+
+.social-media-link-list{
+  display: flex;
+  justify-content: space-around;
+  max-width: 206px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.social-media-link-list-item:not(:last-child){
+  margin-right: 10px;
+}
+
+/* КЛИЕНТЫ */
+
+.clients-list{
+  display: flex;
+  justify-content: space-around;
+}
+.clients-list-item{
+  display: flex;
+  width: 170px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
 }
 .clients-list-item :hover {
   color: var(--hover-text-color);
@@ -261,7 +304,10 @@ img {
 .clients-list-item :focus {
   color: var(--hover-text-color);
 }
+/* ФУТЕР */
+.footer{
 
+}
 .logo-black {
   font-family: Raleway;
   font-style: normal;
@@ -296,7 +342,7 @@ img {
   text-shadow: 1px 1px 2px #000000;
   /*добавил тень для читабельности*/
 }
-.social-links-footer-item:focus {
+.social-links-footer-item:hover {
   color: var(--hover-text-color);
 }
 .social-links-footer-item:focus {
