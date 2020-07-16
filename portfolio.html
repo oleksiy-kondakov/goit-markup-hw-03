@@ -16,33 +16,39 @@
   </head>
 
   <body>
-    <header>
-      <a class="logo-white" href="./index.html"
-        ><span class="logo-blue">Web</span>Studio</a
-      >
-      <ul class="nav-list">
-        <li><a class="nav-list-item" href="./index.html"> Студия </a></li>
-        <li>
-          <a class="nav-list-item" href="./portfolio.html"> Портфолио </a>
-        </li>
-        <li><a class="nav-list-item" href=""> Контакты </a></li>
-      </ul>
-      <ul class="contacts-list">
-        <li>
-          <a class="contacts-list-item" href="mailto:info@devstudio.com"
-            ><img
-              src="./images/envelope.svg"
-              alt="иконка письма"
-            />info@devstudio.com</a
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a class="logo-white" href="./index.html"
+            ><span class="logo-blue">Web</span>Studio</a
           >
-        </li>
-        <li>
-          <a class="contacts-list-item" href="tel:+380961111111"
-            ><img src="./images/smartphone.svg" alt="иконка смартфона" />+38 096
-            111 11 11</a
-          >
-        </li>
-      </ul>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="./index.html"> Студия </a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="./portfolio.html">
+                Портфолио
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href=""> Контакты </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts-list">
+          <li class="contacts-list-item">
+            <a class="contacts-list-item-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-list-item">
+            <a class="contacts-list-item-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <section>
@@ -178,50 +184,67 @@
         </ul>
       </section>
     </main>
-
     <!--Футер-->
-    <footer>
-      <a class="logo-black" href="./index.html"
-        ><span class="logo-blue">Web</span>Studio</a
-      >
-      <address>
-        <span class="adress-text">г. Киев, пр-т Леси Украинки, 26</span>
-        <ul class="adress-list">
-          <li>
-            <a class="contacts-list-item" href=" mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contacts-list-item" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
-      <p class="social-links-footer">Присоединяйтесь</p>
-      <ul class="social-links-footer-list">
-        <li>
-          <a class="social-links-footer-item" href="instagram"
-            ><img src="./images/instagram2.svg" alt="иконка инстаграма"
-          /></a>
-        </li>
-        <li>
-          <a class="social-links-footer-item" href="twitter"
-            ><img src="./images/twitter1.svg" alt="иконка твиттера"
-          /></a>
-        </li>
-        <li>
-          <a class="social-links-footer-item" href="facebook"
-            ><img src="./images/facebook1.svg" alt="иконка фейсбука" />
-          </a>
-        </li>
-        <li>
-          <a class="social-links-footer-item" href="linkedin"
-            ><img src="./images/linkedin1.svg" alt="иконка линкдина"
-          /></a>
-        </li>
-      </ul>
+    <footer class="footer">
+      <div class="container">
+        <div class="adress-container">
+          <a class="logo-black" href="./index.html"
+            ><span class="logo-blue">Web</span>Studio</a
+          >
+          <address>
+            <span class="adress-text">г. Киев, пр-т Леси Украинки, 26</span>
+            <ul class="adress-list">
+              <li class="footer-contacts-list-item">
+                <a
+                  class="contacts-list-footer-item-link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-contacts-list-item">
+                <a
+                  class="contacts-list-footer-item-link"
+                  href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <p class="social-links-footer">Присоединяйтесь</p>
+          <ul class="social-links-footer-list social-media-link-list">
+            <li>
+              <a
+                class="social-links-footer-item social-media-link-list-item"
+                href="instagram"
+                ><img src="./images/instagram2.svg" alt="иконка инстаграма"
+              /></a>
+            </li>
+            <li>
+              <a
+                class="social-links-footer-item social-media-link-list-item"
+                href="twitter"
+                ><img src="./images/twitter1.svg" alt="иконка твиттера"
+              /></a>
+            </li>
+            <li>
+              <a
+                class="social-links-footer-item social-media-link-list-item"
+                href="facebook"
+                ><img src="./images/facebook1.svg" alt="иконка фейсбука" />
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-links-footer-item social-media-link-list-item"
+                href="linkedin"
+                ><img src="./images/linkedin1.svg" alt="иконка линкдина"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
