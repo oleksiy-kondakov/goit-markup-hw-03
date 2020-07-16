@@ -306,7 +306,12 @@ img {
 }
 /* ФУТЕР */
 .footer{
-
+background-color: #2F303A;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.footer .container{
+display: flex;
 }
 .logo-black {
   font-family: Raleway;
@@ -316,9 +321,8 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
-  text-shadow: 2px 2px 4px #000000;
-  /*добавил тень для читабельности*/
-}
+  margin-bottom: 20px;
+ }
 .adress-text {
   font-family: Roboto;
   font-style: normal;
@@ -327,8 +331,8 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  text-shadow: 1px 1px 2px #000000;
-  /*добавил тень для читабельности*/
+  margin-bottom: 9px;
+
 }
 
 .social-links-footer {
@@ -339,8 +343,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  text-shadow: 1px 1px 2px #000000;
-  /*добавил тень для читабельности*/
+
 }
 .social-links-footer-item:hover {
   color: var(--hover-text-color);
