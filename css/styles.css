@@ -38,6 +38,8 @@ img {
   margin-right: auto;
   align-items: center;
 }
+
+/* ШАПКА САЙТА */
 .header .container {
   display: flex;
 }
@@ -118,7 +120,7 @@ img {
 .contacts-list-item-link:focus {
   color: var(--hover-text-color);
 }
-
+/* ГЕРОЙ */
 .main-header {
   font-style: normal;
   font-weight: 900;
@@ -143,12 +145,14 @@ img {
   background-color: var(--hover-text-color);
   color: #ffffff;
   border-radius: 4px;
-  display: flex;
+  display: block;
   align-items: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+/* Возможности */
+
 .capabillity-header {
   font-style: normal;
   font-weight: bold;
@@ -157,6 +161,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .capabillity-text {
   font-style: normal;
@@ -172,7 +178,16 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+.capabillity-img {
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+/* Чем мы занимаемся */
 .second-header {
   font-style: normal;
   font-weight: bold;
