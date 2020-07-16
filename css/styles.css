@@ -5,6 +5,7 @@
 }
 a {
   text-decoration: none;
+  display: block;
 }
 a :visited {
   text-decoration: none;
@@ -14,6 +15,20 @@ ul {
 }
 body {
   font-family: Roboto, sans-serif;
+}
+h1 {
+  margin: 0;
+}
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+img {
+  display: block;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .container {
   width: 1200px;
@@ -49,6 +64,8 @@ body {
 .nav-list {
   display: flex;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .nav-list-item:not(:last-child) {
   margin-right: 40px;
@@ -63,6 +80,12 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.nav-list-item-link:hover {
+  color: var(--hover-text-color);
+}
+.nav-list-item-link:focus {
+  color: var(--hover-text-color);
+}
 .contacts-list {
   display: flex;
   margin-left: auto;
@@ -74,7 +97,7 @@ body {
   color: var(--hover-text-color);
 }
 
-.nav-list-item :focus {
+.nav-list-item:focus {
   color: var(--hover-text-color);
 }
 
@@ -107,6 +130,7 @@ body {
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
   /*добавил тень для читабельности*/
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -122,6 +146,8 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .capabillity-header {
   font-style: normal;
@@ -139,6 +165,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+.capabillity-list {
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .second-header {
