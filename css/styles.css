@@ -196,6 +196,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 50px;
 }
 .what-we-do-header {
   font-style: normal;
@@ -206,7 +207,14 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
+  text-align: center;
   /*добавил тень для читабельности*/
+}
+.what-we-do-list {
+  display: flex;
+}
+.what-we-do-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .our-team-header {
