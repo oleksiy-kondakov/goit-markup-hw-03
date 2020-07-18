@@ -65,7 +65,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-  text-shadow: 2px 2px 4px #000000;
   margin-right: 85px;
   /*добавил тень для читабельности*/
 }
