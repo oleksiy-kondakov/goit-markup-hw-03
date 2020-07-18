@@ -241,6 +241,10 @@ img {
   display: flex;
   justify-content: center;
 }
+.our-team-list-item {
+  background-color: white;
+  border-radius: 0px 0px 4px 4px;
+}
 .our-team-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -280,6 +284,8 @@ img {
   max-width: 206px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
 
 .social-media-link-list-item:not(:last-child) {
