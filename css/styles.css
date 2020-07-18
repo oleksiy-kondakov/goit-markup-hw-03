@@ -164,6 +164,14 @@ img {
   padding-bottom: 10px;
   padding-left: 32px;
 }
+.hero-button:hover {
+  background-color: #ffffff;
+  color: var(--hover-text-color);
+}
+.hero-button:focus {
+  background-color: #ffffff;
+  color: var(--hover-text-color);
+}
 /* Возможности */
 
 .capabillity-header {
