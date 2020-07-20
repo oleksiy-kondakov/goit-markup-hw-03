@@ -305,7 +305,7 @@ img {
 
 .social-media-link-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: 206px;
   margin-right: auto;
   margin-left: auto;
@@ -380,7 +380,7 @@ img {
 }
 .footer-social-link-container {
   width: 206px;
-  text-align: center;
+  text-align: start;
 }
 .footer-contacts-list-item:not(:last-child) {
   margin-bottom: 9px;
