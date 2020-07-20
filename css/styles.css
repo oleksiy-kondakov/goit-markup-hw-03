@@ -202,14 +202,23 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 }
+.capabillity-list-item:not(:last-child) {
+  margin-right: 30px;
+  max-width: 270px;
+}
+.capabillity-img-wrapper {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 .capabillity-img {
   padding-top: 25px;
   padding-right: 100px;
   padding-bottom: 25px;
   padding-left: 100px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
 }
 
 /* Чем мы занимаемся */
@@ -241,6 +250,9 @@ img {
 .what-we-do-list {
   display: flex;
 }
+.what-we-do-list-item {
+  width: 370px;
+}
 .what-we-do-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -256,6 +268,7 @@ img {
 .our-team-list-item {
   background-color: white;
   border-radius: 0px 0px 4px 4px;
+  width: 270px;
 }
 .our-team-list-item:not(:last-child) {
   margin-right: 30px;
@@ -363,8 +376,12 @@ img {
 }
 .adress-container {
   margin-right: 69px;
+  width: 231px;
 }
-
+.footer-social-link-container {
+  width: 206px;
+  text-align: center;
+}
 .footer-contacts-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -453,6 +470,7 @@ img {
   padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
+  padding-right: 24px;
   border: 1px solid #eeeeee;
 }
 .portfolio-item-header {
